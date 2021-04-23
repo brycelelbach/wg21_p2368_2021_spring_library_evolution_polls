@@ -150,10 +150,10 @@ If you want to discuss the polls or how you plan on voting, please start an
 
 Modify
   [[P0323R9]] (`expected`)
-  by adding a feature test macro and retargeting it from the proposed C++
-  Library Fundamentals Technical Specification version 3 to the C++
-  International Standard,
-  and then send the revised paper to Library Working Group for C++23,
+  by adding a feature test macro, putting back the rationale and design,
+  and retargeting it from the proposed C++ Library Fundamentals Technical
+  Specification version 3 to the C++ International Standard,
+  and then send [[P0323R10]] to Library Working Group for C++23,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
 ## Poll 2: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {#poll-2}
