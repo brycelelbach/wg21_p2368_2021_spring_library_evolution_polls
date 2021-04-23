@@ -150,9 +150,9 @@ If you want to discuss the polls or how you plan on voting, please start an
 
 Modify
   [[P0323R9]] (`expected`)
-  by adding a feature test macro and retargeting it for the C++ International
-  Standard by changing the namespace from `std::experimental` to `std` and
-  changing the header from `<experimental/expected>` to `<expected>`,
+  by adding a feature test macro and retargeting it from the proposed C++
+  Library Fundamentals Technical Specification version 3 to the C++
+  International Standard,
   and then send the revised paper to Library Working Group for C++23,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
@@ -172,10 +172,10 @@ Send
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 4: [[P2210R1]] Superior String Splitting ## {#poll-4}
+## Poll 4: [[P2210R2]] Superior String Splitting ## {#poll-4}
 
 Send
-  [[P2210R1]] Superior String Splitting
+  [[P2210R2]] Superior String Splitting
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
