@@ -156,7 +156,7 @@ Modify
   and then send the revised paper to Library Working Group for C++23,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## Poll 2: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {poll-2}
+## Poll 2: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {#poll-2}
 
 Send
   [[P2325R2]] Views Should Not Be Required To Be Default Constructible
@@ -164,7 +164,7 @@ Send
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 3: [[P2328R0]] `join_view` Should Join All Views Of Ranges ## {poll-3}
+## Poll 3: [[P2328R0]] `join_view` Should Join All Views Of Ranges ## {#poll-3}
 
 Send
   [[P2328R0]] `join_view` Should Join All Views Of Ranges
@@ -172,7 +172,7 @@ Send
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 4: [[P2210R1]] Superior String Splitting ## {poll-4}
+## Poll 4: [[P2210R1]] Superior String Splitting ## {#poll-4}
 
 Send
   [[P2210R1]] Superior String Splitting
