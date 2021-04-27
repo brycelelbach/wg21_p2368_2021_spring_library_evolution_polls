@@ -9,7 +9,7 @@ Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA
 URL: https://wg21.link/P2368
 !Source: <a href="https://github.com/brycelelbach/wg21_p2368_2021_spring_library_evolution_polls/blob/main/2021_spring_library_evolution_polls.bs">GitHub</a>
 Issue Tracking: GitHub https://github.com/brycelelbach/wg21_p2368_2021_spring_library_evolution_polls/issues
-Metadata Order: Editor, This Version, Source, Issue Tracking, Project, Audience
+Metadata Order: Editor, Source, Issue Tracking, Project, Audience
 Markup Shorthands: markdown yes
 Toggle Diffs: no
 No Abstract: yes
@@ -31,7 +31,7 @@ All committee members may vote, but if you have not participated in the Library
 
 ## How to Vote ## {#how-to-vote}
 
-<b><a href="https://documents.isocpp.org/index.php/apps/forms/5TRg5gN2oBRiDt4y">Vote here</a></b>
+<b><a href="https://documents.isocpp.org/index.php/apps/forms/2DeWqLJC6LTjFPjk">Vote here</a></b>
 
 A documents.isocpp.org account is necessary to vote.
 If you have an isocpp.org/papers account, a documents.isocpp.org account has
@@ -68,39 +68,44 @@ Each poll consists of a statement; you vote on whether you support the
   statement.
 All polls will be 5-way polls; you'll vote either "strongly favor",
   "weakly favor", "neutral", "weakly against", or "strongly against".
+
+All committee members may vote, but if you have not participated in the
+  Library Evolution discussions of a poll (in-person, over telecon, or
+  over email), please consider whether you sufficiently understand the
+  topic to be able to vote in an informed manner.
+If you do not, please choose to not participate in the poll.
+
 If you do not want to participate in a poll, select the "I do not want to
   participate in this poll" option.
 Those who do not participate in a poll will not be counted or recorded.
+Voting neutral is not the same as choosing to not participate; please
+  don't vote neutral if you did not participate in the discussions of
+  the poll.
 
 Each poll has a comment field.
 Please write a few sentences explaining the rationale for your vote.
 
-Poll results and comments will be shared with Library Evolution after the end of
-  the polling period, including attribution of your votes and comments.
+Poll results and selected comments will be shared with Library Evolution after
+  the end of the polling period, including attribution of your votes and comments.
 
 If you want to discuss the polls or how you plan on voting, please start an
   email thread on the
   <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
+  
+You will not receive a confirmation email after voting.
+
+If you need to see how you voted, change how you voted, or have any questions
+  or issues about voting, please contact the Library Evolution chair.
 
 ## Poll 1: [[P0323R10]] `expected` ## {#poll-1}
 
-Modify
+Send
   [[P0323R10]] (`expected`)
-  by adding a feature test macro and retargeting it from the proposed C++
-  Library Fundamentals Technical Specification version 3 to the C++
-  International Standard,
-  and then send the revised paper to Library Working Group for C++23,
+  to Library Working Group for C++23 instead of the proposed C++ Library
+  Fundamentals Technical Specification version 3,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## Poll 2: [[P1072R7]] `basic_string::resize_and_overwrite` ## {#poll-2}
-
-Modify
-  [[P1072R7]] (`basic_string::resize_and_overwrite`)
-  by adding a feature test macro,
-  and then send the revised paper to Library Working Group for C++23,
-  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
-
-## Poll 3: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {#poll-3}
+## Poll 2: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {#poll-2}
 
 Send
   [[P2325R2]] (Views Should Not Be Required To Be Default Constructible)
@@ -108,7 +113,7 @@ Send
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 4: [[P2328R0]] `join_view` Should Join All Views Of Ranges ## {#poll-4}
+## Poll 3: [[P2328R0]] `join_view` Should Join All Views Of Ranges ## {#poll-3}
 
 Send
   [[P2328R0]] (`join_view` Should Join All Views Of Ranges)
@@ -116,7 +121,7 @@ Send
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 5: [[P2210R2]] Superior String Splitting ## {#poll-5}
+## Poll 4: [[P2210R2]] Superior String Splitting ## {#poll-4}
 
 Send
   [[P2210R2]] (Superior String Splitting)
@@ -124,24 +129,38 @@ Send
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 6: [[P2321R1]] `views::zip` ## {#poll-6}
+## Poll 5: [[P2321R1]] `views::zip` ## {#poll-5}
 
 Send
   [[P2321R1]] (`views::zip`)
   to Library Working Group for C++23,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## Poll 7: [[P2251R1]] Require `span` & `basic_string_view` To Be Trivially Copyable ## {#poll-7}
+## Poll 6: [[P2251R1]] Require `span` & `basic_string_view` To Be Trivially Copyable ## {#poll-6}
 
 Send
   [[P2251R1]] (Require `span` & `basic_string_view` To Be Trivially Copyable)
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-## Poll 8: [[P2301R0]] Add A `pmr` Alias For `std::stacktrace` ## {#poll-8}
+## Poll 7: [[P1072R7]] `basic_string::resize_and_overwrite` ## {#poll-7}
+
+Modify
+  [[P1072R7]] (`basic_string::resize_and_overwrite`)
+  by adding a feature test macro,
+  and then send the revised paper to Library Working Group for C++23,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+## Poll 8: [[P2340R0]] Clarifying The Status Of The "C Headers" ## {#poll-8}
 
 Send
-  [[P2301R0]] (Add A `pmr` Alias For `std::stacktrace`)
+  [[P2340R0]] (Clarifying The Status Of The "C Headers")
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
+## Poll 9: [[P2301R0]] Add A `pmr` Alias For `stacktrace` ## {#poll-9}
+
+Send
+  [[P2301R0]] (Add A `pmr` Alias For `stacktrace`)
+  to Library Working Group for C++23,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
