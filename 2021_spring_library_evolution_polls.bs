@@ -16,70 +16,6 @@ No Abstract: yes
 Boilerplate: style-syntax-highlighting off
 </pre>
 
-<style>
-pre {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.ins, ins, ins *, span.ins, span.ins * {
-  background-color: rgb(200, 250, 200);
-  color: rgb(0, 136, 0);
-  text-decoration: none;
-}
-.del, del, del *, span.del, span.del * {
-  background-color: rgb(250, 200, 200);
-  color: rgb(255, 0, 0);
-  text-decoration: line-through;
-  text-decoration-color: rgb(255, 0, 0);
-}
-math, span.math {
-  font-family: serif;
-  font-style: italic;
-}
-ul {
-  list-style-type: "— ";
-}
-blockquote {
-  counter-reset: paragraph;
-}
-div.numbered, div.newnumbered {
-  margin-left: 2em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-div.numbered:before, div.newnumbered:before {
-  position: absolute;
-  margin-left: -2em;
-  display-style: block;
-}
-div.numbered:before {
-  content: counter(paragraph);
-  counter-increment: paragraph;
-}
-div.newnumbered:before {
-  content: "�";
-}
-div.numbered ul, div.newnumbered ul {
-  counter-reset: list_item;
-}
-div.numbered li, div.newnumbered li {
-  margin-left: 3em;
-}
-div.numbered li:before, div.newnumbered li:before {
-  position: absolute;
-  margin-left: -4.8em;
-  display-style: block;
-}
-div.numbered li:before {
-  content: "(" counter(paragraph) "." counter(list_item) ")";
-  counter-increment: list_item;
-}
-div.newnumbered li:before {
-  content: "(�." counter(list_item) ")";
-  counter-increment: list_item;
-}
-</style>
-
 # Introduction # {#introduction}
 
 This paper contains the decision polls that the C++ Library Evolution group
@@ -146,88 +82,66 @@ If you want to discuss the polls or how you plan on voting, please start an
   email thread on the
   <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
 
-## Poll 1: [[P0323R9]] `expected` ## {#poll-1}
+## Poll 1: [[P0323R10]] `expected` ## {#poll-1}
 
 Modify
-  [[P0323R9]] (`expected`)
+  [[P0323R10]] (`expected`)
   by adding a feature test macro and retargeting it from the proposed C++
   Library Fundamentals Technical Specification version 3 to the C++
   International Standard,
   and then send the revised paper to Library Working Group for C++23,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## Poll 2: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {#poll-2}
+## Poll 2: [[P1072R7]] `basic_string::resize_and_overwrite` ## {#poll-2}
+
+Modify
+  [[P1072R7]] (`basic_string::resize_and_overwrite`)
+  by adding a feature test macro,
+  and then send the revised paper to Library Working Group for C++23,
+  classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
+
+## Poll 3: [[P2325R2]] Views Should Not Be Required To Be Default Constructible ## {#poll-3}
 
 Send
-  [[P2325R2]] Views Should Not Be Required To Be Default Constructible
+  [[P2325R2]] (Views Should Not Be Required To Be Default Constructible)
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 3: [[P2328R0]] `join_view` Should Join All Views Of Ranges ## {#poll-3}
+## Poll 4: [[P2328R0]] `join_view` Should Join All Views Of Ranges ## {#poll-4}
 
 Send
-  [[P2328R0]] `join_view` Should Join All Views Of Ranges
+  [[P2328R0]] (`join_view` Should Join All Views Of Ranges)
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 4: [[P2210R2]] Superior String Splitting ## {#poll-4}
+## Poll 5: [[P2210R2]] Superior String Splitting ## {#poll-5}
 
 Send
-  [[P2210R2]] Superior String Splitting
+  [[P2210R2]] (Superior String Splitting)
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item),
   with the recommendation that implementations retroactively apply it to C++20.
 
-## Poll 5: [[P2321R1]] `views::zip` ## {#poll-5}
+## Poll 6: [[P2321R1]] `views::zip` ## {#poll-6}
 
 Send
-  [[P2321R1]] `views::zip`
+  [[P2321R1]] (`views::zip`)
   to Library Working Group for C++23,
   classified as an addition ([[P0592R4]] bucket 3 item).
 
-## Poll 6: [[P2251R1]] Require `span` & `basic_string_view` To Be Trivially Copyable ## {#poll-6}
+## Poll 7: [[P2251R1]] Require `span` & `basic_string_view` To Be Trivially Copyable ## {#poll-7}
 
 Send
-  [[P2251R1]] Require `span` & `basic_string_view` To Be Trivially Copyable
+  [[P2251R1]] (Require `span` & `basic_string_view` To Be Trivially Copyable)
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
 
-## Poll 7: [[P2301R0]] Add A `pmr` Alias For `std::stacktrace` ## {#poll-7}
+## Poll 8: [[P2301R0]] Add A `pmr` Alias For `std::stacktrace` ## {#poll-8}
 
 Send
-  [[P2301R0]] Add A `pmr` Alias For `std::stacktrace`
+  [[P2301R0]] (Add A `pmr` Alias For `std::stacktrace`)
   to Library Working Group for C++23,
   classified as an improvement of an existing feature ([[P0592R4]] bucket 2 item).
-
-
-<pre class=biblio>
-{
-  "P2235R0": {
-    "authors": [
-      "Barry Revzin"
-    ],
-    "href": "https://isocpp.org/files/papers/P2325R2.html",
-    "title": "Views Should Not Be Required To Be Default Constructible",
-    "date": "2020-04-11"
-  },
-  "P2321R1": {
-    "authors": [
-      "Tim Song"
-    ],
-    "href": "https://isocpp.org/files/papers/P2321R1.html",
-    "title": "`views::zip`",
-    "date": "2020-04-11"
-  },
-  "P2251R1": {
-    "authors": [
-      "Nevin Liber"
-    ],
-    "href": "https://isocpp.org/files/papers/P2251R1.pdf",
-    "title": "Require `span` & `basic_string_view` To Be Trivially Copyable",
-    "date": "2020-03-19"
-  }
-}
-</pre>
 
