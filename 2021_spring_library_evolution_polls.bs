@@ -84,6 +84,8 @@ Voting neutral is not the same as choosing to not participate; please
 
 Each poll has a comment field.
 Please write a few sentences explaining the rationale for your vote.
+We recommend drafting your comments in a text editor and then pasting them
+  into the polling system.
 
 Poll results and selected comments will be shared with Library Evolution after
   the end of the polling period, including attribution of your votes and comments.
