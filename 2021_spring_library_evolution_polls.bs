@@ -1,8 +1,8 @@
 <pre class='metadata'>
 Title: 2021 Spring Library Evolution Polls
-Shortname: D2368
+Shortname: P2368
 Revision: 1
-Status: D
+Status: P
 Group: WG21
 Audience: WG21
 Editor: Bryce Adelstein Lelbach (he/him/his) — Library Evolution Chair, NVIDIA, brycelelbach@gmail.com
@@ -93,7 +93,7 @@ Poll results and selected comments will be shared with Library Evolution after
 If you want to discuss the polls or how you plan on voting, please start an
   email thread on the
   <a href="lib-ext@lists.isocpp.org">Library Evolution mailing list</a>.
-  
+
 You will not receive a confirmation email after voting.
 
 If you need to see how you voted, change how you voted, or have any questions
